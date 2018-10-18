@@ -7,7 +7,7 @@
     <div class="counter">
       {{ count }}
     </div>
-    <textarea>
+    <textarea />
     <button @click="$store.commit('INCREMENT')">Increment</button>
     <button @click="$store.commit('DECREMENT')">Decrement</button>
     <button @click="$store.dispatch('incrementAsync')">Increment Async</button>
